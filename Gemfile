@@ -7,6 +7,8 @@ end
 
 ruby '2.5.3'
 
+# Use SCSS for stylesheets
+gem 'sassc-rails', '~> 2.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
 # Use postgresql as the database for Active Record
@@ -15,8 +17,6 @@ gem 'pg', '>= 0.18', '< 2.0'
 gem 'dotenv-rails', '~> 2.7'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
-# Use SCSS for stylesheets
-gem 'sassc-rails', '~> 2.1'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '~> 4.1'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
